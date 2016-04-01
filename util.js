@@ -54,6 +54,22 @@
 	        }
 	        return flag;
     	}
+
+        /**
+        * 判断是否是数字
+        *
+        * 用于判断当前输入是否是数字
+        *
+        * @returns true  是数字
+        * @returns false 不是数字
+        *
+        * @date 2016-04-01
+        * @author Ping YF (koakumaping@163.com)
+        */
+       
+       isNumber: function (val) {
+            return !isNaN(val);
+       }
     }
 
     return util;
