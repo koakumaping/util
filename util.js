@@ -99,7 +99,9 @@
         pxToRem: function (px) {
             var fontSize = Number(getComputedStyle(window.document.documentElement)['font-size'].replace(/px/g, '').replace(/!important/g, ''));
             return px / fontSize;
-        }
+        },
+
+        
     }
 
     return util;
