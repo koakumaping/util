@@ -9,16 +9,13 @@
     
     "use strict";
     
-    if(typeof exports === "object" && typeof module === "object")
-    {
+    if(typeof exports === "object" && typeof module === "object") {
         module.exports = factory();
     } 
-    else if(typeof define === "function" && (define.amd || define.cmd))
-    {
+    else if(typeof define === "function" && (define.amd || define.cmd)) {
         define(factory);
     }
-    else
-    {
+    else {
         window.util = factory();
     }
     
